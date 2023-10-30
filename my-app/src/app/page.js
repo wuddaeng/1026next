@@ -5,8 +5,6 @@ export default function Home() {
   return (
     <main className={styles.main}>
 
-
-
         <span className="tip1">Welcome</span>
 
         <span className="tip2">Bye</span>
