@@ -10,7 +10,15 @@ export default function Welcome(){
                         welcome Page
                     </h1>
                 </div>
+
+                <div className="imtrash">
+                    <h1>
+                        Im trash
+                    </h1>
+                </div>
+                
             </div>
+
         </div>
     )
 }

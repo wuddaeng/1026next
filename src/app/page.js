@@ -12,7 +12,9 @@ export default function Home() {
             go to Welcome page
         </button>
         </Link>
-        <span className="tip1">Welcome</span>
+        <Link href={welcomeURL}>
+        <button className="tip1">Welcome</button>
+        </Link>
         <span className="tip2">Bye</span>
     </main>
   )

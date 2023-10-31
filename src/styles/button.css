@@ -47,7 +47,8 @@ button:hover {
     transition: all 0.3s;
     font-size:3em;
     animation:fade-out ease-in-out 1s;
-    color: #fff;
+    color : #fff;
+
 }
 
 @keyframes fade-out {
