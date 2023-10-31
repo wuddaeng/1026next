@@ -8,7 +8,7 @@
 }
 .main span{
   font-size: 10em;
-
+}
 
 .main span.tip1{
   animation: fadein 3s;
@@ -19,7 +19,7 @@
   -webkit-animation: fadeout 3s;
 }
 
-}
+
 
 
 @keyframes fadein {

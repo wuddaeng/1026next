@@ -1,0 +1,45 @@
+.welcome{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imtrash{
+    width:absolute;
+    height:100vh;
+
+ 
+}
+.welcome-text-wrap >h1{
+    font-size: 180px;
+    font-weight: 700;
+    font-family: "BM Jua";
+    animation:fade-in ease-in-out 1s ;
+}
+
+.imtrash >h1{
+    font-size: 50px;
+    font-weight: 700;
+    font-family: "BM Jua";
+    animation:fade-out ease-in-out 1s ;
+
+
+}
+@keyframes fade-in {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 100%;
+    }
+}
+@keyframes fade-out {
+        from{
+            opacity: 1;
+        }
+        to{
+            opacity: 0;
+        }
+}
+
